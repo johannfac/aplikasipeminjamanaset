@@ -1,2 +1,2 @@
-# aplikasipeminjamanaset
+# Aplikasi Peminjaman Aset
 Project independent
