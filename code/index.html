@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Pinjam Aset</title>
+
+    <header>
+
+      <!-- Menu -->
+      <div class="menu">
+        <div class="title-font">Pinjam Aset</div>
+        <ul>
+          <li> <a href="index.html">PEMINJAMAN</a> </li>
+          <li> <a href="pengembalian.html">PENGEMBALIAN</a> </li>
+          <li> <a href="about.html">ABOUT</a> </li>
+        </ul>
+      </div>
+
+    </header>
+  </head>
+  <body>
+
+    <!-- Form peminjam -->
+    <div class="formData">
+      <div class="secondTitle">
+        Peminjaman
+      </div> <br>
+
+      <form class="" action="" method="post" id="msg">
+
+        <label>&nbspName peminjam</label> <br>
+        <input type="text" name="nama peminjam" placeholder="Name peminjam" size="50" required> <br> <br>
+
+        <label>&nbspName barang</label> <br>
+        <select name="nama barang" required>
+          <option value="google cardboard">Google Cardboard</option>
+          <option value="rj45">RJ45</option>
+          <option value="kabel ethernet">Kabel Ethernet</option>
+          <option value="vr headset">VR Headset</option>
+          <option value="arduino uno">Arduino Uno</option>
+        </select> <br> <br>
+
+        <label>&nbspTanggal pinjam</label> <br>
+        <input type="date" name="tanggal pinjam" value="Tanggal pinjam" required> <br> <br>
+
+        <label>&nbspTanggal kembali</label> <br>
+        <input type="date" name="tanggal kembali" value="Tanggal kembali" required> <br> <br>
+
+        <label>&nbspJumlah</label> <br>
+        <input type="number" name="number" placeholder="Jumlah" size="50" required> <br> <br>
+
+        <label>&nbspKeperluan</label> <br>
+        <textarea name="keperluan" rows="5" cols="20" form="msg" placeholder="Keperluan" required></textarea> <br> <br>
+
+        <input type="submit" name="submit" value="SUBMIT" class="submit1">
+      </form>  <br> <br>
+
+    </div> <br>
+
+    <!-- Footer -->
+    <footer>
+      <div class="end">
+        <div style="font-size:15px;font-weight:500">
+          Copyright @ 2021, PT Company
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
